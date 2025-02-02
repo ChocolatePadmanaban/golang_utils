@@ -25,12 +25,6 @@ func three_year_savings_calculator(annual_salary, savings_portion float64) float
 	return current_savings
 }
 
-func in_range_calculator(current_savings float64) bool {
-	if (249900.0 <= current_savings) || (current_savings <= 250100.0) {
-		return true
-	}
-	return false
-}
 func bisectional_savings_calculator_helper(intrest_rate_list []float64, annual_salary float64, low, high, steps int) (float64, int) {
 	steps += 1
 	if high == low {

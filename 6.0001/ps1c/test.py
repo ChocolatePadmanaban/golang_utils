@@ -12,4 +12,6 @@ def savings_calculator(annual_salary, savings_portion):
     return current_savings
 
 
-print(savings_calculator(150000, .441))
+print(savings_calculator(120000, .5))
+print(savings_calculator(80000, .1))
+print(savings_calculator(75000, .05))
